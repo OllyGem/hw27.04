@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sliding-Menu</title>
+    <style>
+        body{
+            max-width: 0;
+        }
+        ul{
+            margin: 0;
+            list-style: none;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            color: #fff 
+        }
+
+        body{
+            background-color:#333;
+            font-family: Verdana;
+        }
+        #menu{
+            background-color: #15466B;
+            width: 150px;
+            height: auto;
+            border-right: 5px solid grey;
+            margin-left: -158px;
+        }
+        li{
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }    
+        li:last-child{
+            border-bottom: none;
+        }
+        li:hover{
+            background-color: #444;        
+        }
+        #menu:hover{
+            margin-left: 0;
+        }
+        li::before{
+            content: "[ ";
+            color:#fff;
+        }
+        
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Delivery</a></li>
+            <li><a href="">Contacts</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMILE</title>
+    
+    <style>
+        body{
+            background-color: #333;
+        }
+        #smile{
+            background-image: radial-gradient(yellow, orange, orangered);
+            width: 150px;
+            height: 150px;
+            margin:auto ;
+            margin-top: 50px;
+            border-radius: 100px;
+            color: brown;
+            text-align: center;
+            line-height: 200px;
+            border: 5px solid orangered;
+            box-shadow: 0 0 30px 2px black
+        }
+        .eye{
+            background-color: white;
+            width: 25px;
+            height: 25px;
+            margin-top: 40px;
+            border-radius: 100px;
+            font-size: 30px;
+            line-height: 15px;
+            text-align: center;
+            color: black;
+        }
+        .left{
+            float: left;
+            margin-left: 30px;
+            border-top: 2px solid black;
+        }
+        .right{
+            float: right;
+            margin-right: 30px;
+            border-top: 2px solid black;
+        }
+        .right:hover{
+            float: right;
+            border-bottom: 2px solid black;
+            border-top: none;
+        }
+
+        .eye:hover{
+            border-radius: none;
+            background-color: transparent;
+            font-size:0;
+        }
+ 
+        .mouth{
+            width: 50px;
+            height: 10px;
+            background-color: brown;
+            border-radius: 0 0 50px 50px;
+            border: 2px solid black;
+            border-top: 3px dashed white;
+        }
+
+</style>
+</head>
+<body>
+    <div id="smile">
+        <div class="eye left">&#9679;</div>
+        <div class="eye right">&#9679;</div>
+        <span class="mouth">'''''''</span>
+    </div>
+
+    
+</body>
+</html>
